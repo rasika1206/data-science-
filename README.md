@@ -2,16 +2,6 @@
 # ASSIGNMENT-LAB INTRODUCTION
 
 
-### FILE:
-# ACTIVITIES.TXT
-[ACTIVITIES (1).txt](https://github.com/user-attachments/files/16626767/ACTIVITIES.1.txt)
-
-
-
-# BANK TRAIN CSV 
-[bank_train.csv](https://github.com/user-attachments/files/16626768/bank_train.csv)
-
-
 ### ACTIVITY 1:
 
 ### 1. Write a Python program to select the 'name' and 'score' columns from the following DataFrame:
