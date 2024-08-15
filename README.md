@@ -25,6 +25,7 @@
               'attempts': [1, 3, 4, 3, 5, 3, 6, 1, 7, 1] } 
 
  # PROGRAM:
+ ```
 import pandas as pd
 import numpy as np
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
@@ -35,7 +36,7 @@ df = pd.DataFrame(exam_data)
 selected_columns = df[['name', 'score']]
 
 print(selected_columns)
-
+```
 
 # OUTPUT:
 ![output1](https://github.com/user-attachments/assets/af564a26-a4ce-4c52-9867-78ddc11cef4a)
@@ -43,6 +44,7 @@ print(selected_columns)
 ### 2. For the above dataframe, Write a program to select the data who's attempt is greater than 3.
 
 # PROGRAM:
+```
 import pandas as pd
 import numpy as np
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
@@ -53,6 +55,7 @@ df = pd.DataFrame(exam_data)
 selected_data = df[df['attempts'] > 3]
 
 print(selected_data)
+```
 
 # OUTPUT:
 ![output2](https://github.com/user-attachments/assets/b6e7eb08-7845-4fc7-9653-bfb442c37518)
@@ -81,6 +84,7 @@ c. Select rows where gender is 'M' and salary is greater than 65000:
 d. Select columns 'name' and 'age'
 
 # PROGRAM:
+```
 import pandas as pd
 
 # Create a DataFrame
@@ -106,6 +110,6 @@ print(df[(df['gender'] == 'M') & (df['salary'] > 65000)])
 # d. Select columns 'name' and 'age'
 print("\nColumns 'name' and 'age':")
 print(df[['name', 'age']])
-
+```
 # OUTPUT:
 ![Output3](https://github.com/user-attachments/assets/a1de6846-fbf1-43e4-8c66-9c3799c17e3b)
